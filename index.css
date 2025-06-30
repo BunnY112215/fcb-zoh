@@ -1,0 +1,141 @@
+/*
+CSS Rules Syntax
+selector {
+	property:value;
+}
+*/
+
+/*Universal Selector*/
+/*Targets all elements using the * symbol.*/
+
+*{
+
+	/*CSS Reset - set of CSS rules that removes the default styling applied by browsers to HTML elements. */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Calibri", Comic Sans;
+}
+
+
+/*Type Selector*/
+/*Type Selector - it selects all elements of a specific HTML tag or type.*/
+
+h1{
+	font-family: "Sans Serif", Tahoma;
+	text-align: center;
+}
+
+body{
+	/*background-color: skyblue;*/
+	background-image: url(https://plus.unsplash.com/premium_photo-1692816142998-4677191a439a?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h2{
+	font-family: "Tahoma", Sans Serif;
+	text-align: center;
+}
+
+section{
+	text-align: center;
+}
+
+nav{
+	background-color: purple;
+	text-align: center;
+	padding: 16px
+	margin-bottom: 4px; 
+	padding: 16px; 
+}
+
+a{
+	text-decoration: none;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*Class Selector*/
+/*Class Selector (.) - it selects all elements that have a specific class attribute.*/
+
+.nav-link{
+	color: blue;
+	font-size: 18px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.title{
+	color: black;
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+
+.tools{
+	text-align: center;
+	margin-bottom: 50px
+	margin-top: 50px;
+}
+
+.card{
+	border: 2px solid black;
+	height: 350px;
+	width: 800px;
+	/*space between the content of an element and its border.*/
+	padding: 20px;
+	/*space outside the border of an element and between its neighboring elements.*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 10px;
+}
+
+/*ID Selector*/
+/*ID Selector (#) - it selects a specific element by its unique ID.*/
+
+
+#top{
+	color: black;
+	font-size: 2rem;
+}
+
+#landing{
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+#logo{
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#modules{
+	margin-top: 30px;
+}
+
+.profile{
+	height: 300px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 10px;
+}
+
+.name{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.title{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
